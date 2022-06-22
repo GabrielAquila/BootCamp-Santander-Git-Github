@@ -17,10 +17,9 @@ Comandos Git Bash
 	- Git commit - m " string qualquer":  faz o commit ao repositório 
 	- Git status: apresenta o status daquele repositório especifico, trazendo as 			alterações do mesmo 
 	- Mv "arquivo" ./"diretorio/: move um arquivo para uma pasta
-	- O que são commits ?: commits são objetos do git que dão significado as 				alteraçoes e os objetos carregam metadados e mensagens 
 	- Git config --list: lista toda as configurações do meu Git
 	- git config --global --unset user.name ou email: modifica as configurações de 			configuração do git 
-	- git remote add "origin(nome para a banch)" (url do repositorio do github
+	- git remote add "origin(nome para a banch)" (url do repositorio do github): cria 		um repositorio git atrelado ao github
 	- Git remote -v : lista os repositorios na sua maquina atreladas 
 	- Git push "origin(nome da banch)" master: Sobe o arquivo ou pasta para o 				repositorio especificado 
 	- Git pull : puxar as últimas alterações da feature 
