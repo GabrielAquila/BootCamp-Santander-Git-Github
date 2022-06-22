@@ -1,0 +1,27 @@
+Comandos git no Shell
+	- Cd: Possibilita navegação dentro das pasta , use cd .. Para volta 
+	- Dir: Lista diretorios dentro da pasta situada 
+	- Mkdir: Cria pastas    
+	- Del:  deleta o arquivo especificado dentro do diretorio, não deleta o diretorio 
+	- rMdir: deleta o diretorio, use o /s /q para apagar com os arquivos dentros, caso 		o diretorio estiver vazio, use apenas o rmdir
+	- Cls : limpa o terminal completo
+	- Echo: printa no termina uma frase que voce passa
+	- Echo > : o ">" possibilita direcionar o que vai ser printado na tela para um 		arquivo                       especificado ex : c:\ > echo "algum texto dentro do 		arquivo > hello.txt   
+
+Comandos Git Bash 
+	- Git init : cria um repositório ( inicializa o repositório no git dentro do 			diretório )
+	- Ls -a: lista pastas ocultas 
+	- Git config --global user.email "capu.gabriel@gmail.com" : configuração de email 		atrelado ao repositório
+	- Git config --global user.name Gabriel : atrelado o nome ao repositório
+	- Git add *:  move o arquivo untracked direto para o staged 
+	- Git commit - m " string qualquer":  faz o commit ao repositório 
+	- Git status: apresenta o status daquele repositório especifico, trazendo as 			alterações do mesmo 
+	- Mv "arquivo" ./"diretorio/: move um arquivo para uma pasta
+	- O que são commits ?: commits são objetos do git que dão significado as 				alteraçoes e os objetos carregam metadados e mensagens 
+	- Git config --list: lista toda as configurações do meu Git
+	- git config --global --unset user.name ou email: modifica as configurações de 			configuração do git 
+	- git remote add "origin(nome para a banch)" (url do repositorio do github
+	- Git remote -v : lista os repositorios na sua maquina atreladas 
+	- Git push "origin(nome da banch)" master: Sobe o arquivo ou pasta para o 				repositorio especificado 
+	- Git pull : puxar as últimas alterações da feature 
+	- Git Clone : clona repositorios1310
