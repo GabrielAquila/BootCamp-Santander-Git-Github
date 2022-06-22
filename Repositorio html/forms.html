@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form5" action="newrequest" method="post">
+        <label for="produto"> <p style="font-size:50px">&#128540; </p></label>
+        <h2> Escolha seu Produto</h2>
+        <select name="produto" id="produto" required>
+          <option value=""></option>
+          <option value="Strogonoff">Strogonoff</option>
+          <option value="Pizza">Pizza</option>
+          <option value="Big Mac">Big Mac</option>
+        </select><br/>
+
+        <label for="quantidade"></label>
+        <br/>
+        <input type="number" name="quantidade" id="quantidade" min="1" max="8" value="1" required ><br/>
+
+        <label for="observacoes"></label><br/>
+        <textarea id="observacoes" name="observacoes" maxlength="255">Por favor, escreva aqui suas observações!</textarea>
+  
+        <button type="submit">Pedir pelo ifood(sqn kkk)!</button>
+      </form>
+</body>
+</html>
